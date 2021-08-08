@@ -9,27 +9,30 @@
     <title>Quenguito</title>
 </head>
 
-<body>
-    <form>
+<body style="color: white; background-image: url('https://images4.alphacoders.com/964/964414.png'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <form style="margin-bottom: 10px; width: 400px; text-align: center;">
         <Fieldset>
             <!--encierra todo en un cuadro-->
             <legend>Datos Personales</legend>
-            <label>Edad</label>
             <!--etiqueta que acompaña y describe el cuadro de contenido-->
-            <input type="number" />
+            <input placeholder="Edad" type="number" required/>
             <br />
-            <label>Password</label>
-            <input type="password" />
+            <input placeholder="Contraseña" type="password" required />
             <br>
-            <label>Nombre</label>
-            <input type="text" placeholder="Escribe tu nombre" />
-            <input type="submit" />
+            <input type="text" placeholder="Escribe tu nombre" required />
             <!--es un boton para enviar la info de "Form". 
                                     Puedo cambiar valor de texto con "value="PALABRA""-->
             <br />
             <textarea placeholder="Deja un comentario..."></textarea>
+            <br>
+            <input type="submit" />
             <br />
-            <button>Shipeo</button>
+        </Fieldset>
+    </form>
+
+    <br>
+    <div>
+        <button>Shipeo</button>
             <!--es parecido "submit" pero puedes describir su funcion,
                                      es mas usado, le puedo pasar mas elementos html u iconos-->
             <select>
@@ -40,16 +43,14 @@
             </select>
             <br>
             <a href="index.html">ir Atrás</a>
-        </Fieldset>
-
-    </form>
+    </div>
     <div>
         <img style="border-radius: 50%;" src="https://www.kindpng.com/picc/m/17-172064_inuyasha-
                  anime-animeboy-los-mejores-cosplay-de-inuyasha.png" height="380" width="320" />
         <img src="https://pbs.twimg.com/profile_images/1328602247014572034/TbmiEQXl.jpg" height="380" width="330" />
     </div>
     <p>Puedes ver el anime
-        <b>Inuyahsa</b> a travez del siguiente enlace: <a href="https://danimados.com">Danimados.com</a>
+        <b>Inuyahsa</b> a travez del siguiente enlace: <a style="text-decoration: none;" href="https://danimados.com"><b>Danimados.com</b></a>
     </P>
 
     <div> <u>Personajes Segundarios</u>
