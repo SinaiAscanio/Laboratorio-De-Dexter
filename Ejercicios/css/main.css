@@ -1,0 +1,28 @@
+/* configuramos el cuerpo general de la página */
+
+body {
+    color: white; 
+    background-image: url('https://unamigoloco.files.wordpress.com/2017/06/gato-abogado.png?w=1920&h=1080'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* configuramos el fondo del formulario */
+
+.form-background {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+form textarea {
+    margin-top: 15px;
+}
+
+/* asi se escribe un comentario en css */
